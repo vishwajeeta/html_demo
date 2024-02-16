@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>you tube</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: aliceblue;
+      }
+      .header > input {
+        border: 1px solid gray;
+        border-radius: 100px;
+        width: 580px;
+        margin-left: 280px;
+        height: 35px;
+        font-size: large;
+        padding-left: 20px;
+      }
+      .header > .circle {
+        border: 1px solid;
+        border-radius: 50%;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 7px;
+      }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        width: 16%;
+        background-color: aliceblue;
+        float: left;
+      }
+      hr {
+        padding: 0px;
+        width: 100%;
+      }
+      .os {
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 2px;
+        margin-top: 5px;
+      }
+      .os:hover {
+        background-color: gainsboro;
+        border-radius: 5px;
+      }
+      .recent {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        margin-top: 7px;
+      }
+      .recent > p {
+        background-color: gainsboro;
+        margin: 11px;
+        padding: 7px;
+        border-radius: 8px;
+      }
+      .recent > p:hover {
+        color: white;
+        background-color: black;
+      }
+      ::-webkit-scrollbar {
+        height: 0px;
+      }
+      .om {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+      }
+      .om:hover {
+        background-color: gainsboro;
+        border-radius: 5px;
+      }
+      .right {
+        margin-left: 150px;
+      }
+      img {
+        width: 25px;
+        border-radius: 50%;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+      }
+      .set {
+        float: right;
+        width: 81%;
+      }
+
+      .grid-container {
+        display: grid;
+        
+        row-gap: 20px;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background-color: aliceblue;
+        
+        margin-top: 25px;
+        float: left;
+        width: 98%;
+      }
+      .grid-container > div:hover {
+        background-color: aqua;
+      }
+      iframe{
+        transition: transform .3s ease;
+        border-radius: 10px;
+        width:250px; height:145px;
+      }
+      /*.grid-container>iframe:hover{
+        transform: scale(1.3);
+ 
+      }*/
+ 
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="os" >Youtube</div>
+      <input type="text" placeholder="Search" />
+      <div class="circle os">V</div>
+
+      <div class="os right">Library</div>
+      <div class="os">History</div>
+
+      <img src="pp.jfif" alt="" srcset="" />
+    </div>
+    <div class="menu">
+      <br />
+      <div class="om">Home</div>
+      <div class="om">Shorts</div>
+      <div class="om">Subscriptions</div>
+      <hr />
+
+      <div class="om">Library</div>
+      <div class="om">History</div>
+      <div class="om">Your Videos</div>
+      <div class="om">Watch Later</div>
+      <div class="om">Your clips</div>
+      
+        <div class="om">Show more</div>
+      
+      <hr />
+      <div class="om">Subscriptions</div>
+      
+
+
+    </div>
+
+    <div class="set">
+      <div class="recent">
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj sdfghjk</p>
+        <p>hj</p>
+      </div>
+
+      <div class="grid-container">
+        
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <div>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <p>omg</p></div>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        <iframe src="https://youtube.com/embed/GcJh9v1VM4Q" frameborder="0" ></iframe>
+        
+        
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
